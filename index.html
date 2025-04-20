@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SEES Global ISO Certification</title>
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <div class="header-content">
+        <!-- Logo -->
+        <a href="index.html" class="logo">
+          <img src="https://placehold.co/150x50?text=SEES+LOGO" alt="SEES Logo">
+        </a>
+        
+        <!-- Desktop Navigation -->
+        <nav class="desktop-nav">
+          <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li class="dropdown">
+              <button class="dropdown-button">Services <i class="fas fa-chevron-down"></i></button>
+              <div class="dropdown-content">
+                <a href="certification.html">Certification</a>
+                <a href="training.html">Training</a>
+                <a href="audit.html">Audit</a>
+              </div>
+            </li>
+            <li><a href="process.html">Process</a></li>
+            <li><a href="global.html">Global</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        
+        <!-- Social Icons & Theme Toggle - Desktop -->
+        <div class="header-actions">
+          <div class="social-icons">
+            <a href="https://facebook.com" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://twitter.com" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          </div>
+          
+          <button id="theme-toggle" class="theme-toggle">
+            <i class="fas fa-sun"></i>
+            <i class="fas fa-moon"></i>
+          </button>
+          
+          <!-- Mobile Menu Toggle -->
+          <button id="mobile-menu-toggle" class="mobile-menu-toggle">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="mobile-menu">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li>
+          <button id="services-dropdown" class="services-dropdown">
+            Services <i class="fas fa-chevron-down"></i>
+          </button>
+          <div id="mobile-services" class="mobile-services">
+            <a href="certification.html">Certification</a>
+            <a href="training.html">Training</a>
+            <a href="audit.html">Audit</a>
+          </div>
+        </li>
+        <li><a href="process.html">Process</a></li>
+        <li><a href="global.html">Global</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        
+        <!-- Social Media Icons - Mobile -->
+        <li class="mobile-social">
+          <div class="social-icons-mobile">
+            <a href="https://facebook.com" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://twitter.com" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="https://instagram.com" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-overlay"></div>
+      <div class="container">
+        <div class="hero-content">
+          <h1>Global ISO Certification & Training Services</h1>
+          <p>Accredited Solutions for African and International Businesses</p>
+          
+          <div class="hero-buttons">
+            <a href="#nigeria" class="btn btn-red">Nigeria Clients</a>
+            <a href="#international" class="btn btn-blue">International Clients</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trust Badge Section -->
+    <section class="trust-badge">
+      <div class="container">
+        <div class="trust-badge-content">
+          <h2>Trusted & Accredited Certification Partner</h2>
+          
+          <div class="badges-carousel">
+            <div class="badges-wrapper">
+              <img src="https://placehold.co/180x80?text=NQA+Accredited" alt="NQA Accredited">
+              <img src="https://placehold.co/180x80?text=IAF+Member" alt="IAF Member">
+              <img src="https://placehold.co/180x80?text=ISO+Certified" alt="ISO Certified">
+              <img src="https://placehold.co/180x80?text=Global+Partner" alt="Global Partner">
+            </div>
+          </div>
+          
+          <div class="carousel-controls">
+            <button id="prev-badge" class="carousel-control"><i class="fas fa-chevron-left"></i></button>
+            <button id="next-badge" class="carousel-control"><i class="fas fa-chevron-right"></i></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+      <div class="container">
+        <h2>Our ISO Services</h2>
+        
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-certificate"></i>
+            </div>
+            <h3>Certification</h3>
+            <ul>
+              <li><i class="fas fa-check"></i> ISO 9001 (Quality Management)</li>
+              <li><i class="fas fa-check"></i> ISO 14001 (Environmental Management)</li>
+              <li><i class="fas fa-check"></i> ISO 45001 (Occupational Health & Safety)</li>
+            </ul>
+            <a href="certification.html" class="btn btn-service">View All Standards</a>
+          </div>
+          
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-chalkboard-teacher"></i>
+            </div>
+            <h3>Training</h3>
+            <ul>
+              <li><i class="fas fa-check"></i> On-site Workshops</li>
+              <li><i class="fas fa-check"></i> Virtual Training</li>
+              <li><i class="fas fa-check"></i> Custom Training Modules</li>
+            </ul>
+            <a href="training.html" class="btn btn-service">Request Training</a>
+          </div>
+          
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-clipboard-check"></i>
+            </div>
+            <h3>Audit Services</h3>
+            <ul>
+              <li><i class="fas fa-check"></i> Stage 1 Documentation Review</li>
+              <li><i class="fas fa-check"></i> Stage 2 On-site Audit</li>
+              <li><i class="fas fa-check"></i> Surveillance Audits</li>
+            </ul>
+            <a href="audit.html" class="btn btn-service">Schedule Audit</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Global Reach Section -->
+    <section id="global" class="global-reach">
+      <div class="container">
+        <h2>Our Global Presence</h2>
+        
+        <div class="global-grid">
+          <div class="global-card">
+            <img src="https://placehold.co/80x60?text=NG" alt="Nigeria" class="global-flag">
+            <h4>Nigeria</h4>
+            <p>200+ Certified Organizations</p>
+            <p>HQ: Port Harcourt</p>
+          </div>
+          
+          <div class="global-card">
+            <img src="https://placehold.co/80x60?text=WA" alt="West Africa" class="global-flag">
+            <h4>West Africa</h4>
+            <p>Regional Partner Network</p>
+            <p>Covering 5 Countries</p>
+          </div>
+          
+          <div class="global-card">
+            <img src="https://placehold.co/80x60?text=GLOBAL" alt="Global" class="global-flag">
+            <h4>International</h4>
+            <p>50+ Global Clients</p>
+            <p>Virtual Support Available</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+      <div class="container">
+        <h2>What Our Clients Say</h2>
+        
+        <div class="testimonial-carousel">
+          <div class="testimonial-slides">
+            <div class="testimonial-slide active">
+              <div class="testimonial-content">
+                <div class="testimonial-quote">
+                  <i class="fas fa-quote-left"></i>
+                  <p>Working with SEES for our ISO 9001 certification was a smooth and professional experience. Their team guided us through every step of the process with expertise and dedication.</p>
+                  <i class="fas fa-quote-right"></i>
+                </div>
+                <div class="testimonial-author">
+                  <img src="https://placehold.co/60x60?text=JD" alt="John Doe" class="author-image">
+                  <div>
+                    <h4>John Doe</h4>
+                    <p>Quality Manager, ABC Corporation</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="testimonial-slide">
+              <div class="testimonial-content">
+                <div class="testimonial-quote">
+                  <i class="fas fa-quote-left"></i>
+                  <p>SEES provided excellent training for our team on ISO 14001. The instructors were knowledgeable and the materials were comprehensive. Highly recommended!</p>
+                  <i class="fas fa-quote-right"></i>
+                </div>
+                <div class="testimonial-author">
+                  <img src="https://placehold.co/60x60?text=JS" alt="Jane Smith" class="author-image">
+                  <div>
+                    <h4>Jane Smith</h4>
+                    <p>Director, XYZ Industries</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="testimonial-slide">
+              <div class="testimonial-content">
+                <div class="testimonial-quote">
+                  <i class="fas fa-quote-left"></i>
+                  <p>The audit services from SEES were thorough and insightful. They helped us identify improvement opportunities that we wouldn't have found otherwise.</p>
+                  <i class="fas fa-quote-right"></i>
+                </div>
+                <div class="testimonial-author">
+                  <img src="https://placehold.co/60x60?text=MJ" alt="Michael Johnson" class="author-image">
+                  <div>
+                    <h4>Michael Johnson</h4>
+                    <p>Operations Manager, Global Enterprises</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="testimonial-controls">
+            <button id="prev-testimonial" class="testimonial-control"><i class="fas fa-chevron-left"></i></button>
+            <div class="testimonial-dots">
+              <span class="dot active" data-index="0"></span>
+              <span class="dot" data-index="1"></span>
+              <span class="dot" data-index="2"></span>
+            </div>
+            <button id="next-testimonial" class="testimonial-control"><i class="fas fa-chevron-right"></i></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2>Get Started</h2>
+        
+        <div class="contact-grid">
+          <div class="contact-form-container">
+            <form id="contact-form" class="contact-form">
+              <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required>
+              </div>
+              
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required>
+              </div>
+              
+              <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone">
+              </div>
+              
+              <div class="form-group">
+                <label for="company">Company Name</label>
+                <input type="text" id="company" name="company">
+              </div>
+              
+              <div class="form-group">
+                <label for="service">Service of Interest</label>
+                <select id="service" name="service" required>
+                  <option value="">Please Select</option>
+                  <option value="certification">ISO Certification</option>
+                  <option value="training">Training Services</option>
+                  <option value="audit">Audit Services</option>
+                  <option value="other">Other Services</option>
+                </select>
+              </div>
+              
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+              </div>
+              
+              <button type="submit" class="btn btn-submit">Submit Inquiry</button>
+            </form>
+          </div>
+          
+          <div class="contact-info">
+            <h3>Regional Offices</h3>
+            
+            <div class="regional-offices">
+              <div class="office">
+                <h4>Nigeria HQ</h4>
+                <p>Port Harcourt Office</p>
+                <p>sees@solutionenergylimited.com</p>
+                <p>+234 800 732 9000</p>
+              </div>
+              
+              <div class="office">
+                <h4>West Africa</h4>
+                <p>Accra Regional Office</p>
+                <p>westafrica@sees.ng</p>
+                <p>+233 123 456 789</p>
+              </div>
+              
+              <div class="social-links">
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-about">
+          <h4>About SEES</h4>
+          <p>SEES provides globally recognized ISO certification, training, and audit services to businesses across Africa and beyond.</p>
+        </div>
+        
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-services">
+          <h4>Our Services</h4>
+          <ul>
+            <li><a href="certification.html">ISO Certification</a></li>
+            <li><a href="training.html">Training Programs</a></li>
+            <li><a href="audit.html">Audit Services</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-contact">
+          <h4>Contact Us</h4>
+          <ul>
+            <li><i class="fas fa-envelope"></i> info@sees.ng</li>
+            <li><i class="fas fa-phone"></i> +234 800 732 9000</li>
+            <li><i class="fas fa-map-marker-alt"></i> Port Harcourt, Nigeria</li>
+          </ul>
+        </div>
+      </div>
+      
+      <!-- Social Media Icons -->
+      <div class="footer-social">
+        <h4>Connect With Us</h4>
+        <div class="social-icons-footer">
+          <a href="https://facebook.com" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://twitter.com" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="https://instagram.com" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="https://youtube.com" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; <span id="current-year"></span> SEES Global. All rights reserved.</p>
+        <div class="footer-legal">
+          <a href="privacy-policy.html">Privacy Policy</a>
+          <a href="terms-of-service.html">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Success Modal -->
+  <div id="success-modal" class="modal">
+    <div class="modal-content">
+      <span class="modal-close">&times;</span>
+      <div class="modal-icon">
+        <i class="fas fa-check-circle"></i>
+      </div>
+      <h3>Message Sent!</h3>
+      <p>Thank you for contacting SEES Global. We'll get back to you shortly.</p>
+      <button class="btn btn-blue modal-btn">Close</button>
+    </div>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
